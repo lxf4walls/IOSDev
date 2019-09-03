@@ -38,8 +38,8 @@ Poker.append(poker(suit: "Joker",number: "R"))
 
 
 //人数，发牌
-var Person = 4 //默认4人，可修改
-var PN = 13 //默认13张，可修改
+var Person = 6 //默认4人，可修改
+var PN = 8 //默认13张，可修改
 if Person * PN > Poker.count{
     print("Error")
     exit(0)
@@ -63,6 +63,64 @@ while Find < All{
     Find += 1
 }
 
+//输出示例
+/*
+ 1:
+ poker(suit: "Spade", number: "7")
+ poker(suit: "Spade", number: "J")
+ poker(suit: "Club", number: "10")
+ poker(suit: "Spade", number: "Q")
+ poker(suit: "Diamond", number: "1")
+ poker(suit: "Club", number: "1")
+ poker(suit: "Heart", number: "J")
+ poker(suit: "Heart", number: "K")
+ poker(suit: "Diamond", number: "Q")
+ poker(suit: "Diamond", number: "7")
+ poker(suit: "Diamond", number: "K")
+ poker(suit: "Diamond", number: "2")
+ poker(suit: "Spade", number: "1")
+ 2:
+ poker(suit: "Heart", number: "7")
+ poker(suit: "Diamond", number: "6")
+ poker(suit: "Heart", number: "8")
+ poker(suit: "Joker", number: "R")
+ poker(suit: "Club", number: "6")
+ poker(suit: "Heart", number: "10")
+ poker(suit: "Club", number: "4")
+ poker(suit: "Heart", number: "Q")
+ poker(suit: "Spade", number: "9")
+ poker(suit: "Diamond", number: "10")
+ poker(suit: "Club", number: "Q")
+ poker(suit: "Diamond", number: "5")
+ poker(suit: "Diamond", number: "8")
+ 3:
+ poker(suit: "Spade", number: "5")
+ poker(suit: "Club", number: "2")
+ poker(suit: "Diamond", number: "3")
+ poker(suit: "Spade", number: "6")
+ poker(suit: "Heart", number: "5")
+ poker(suit: "Spade", number: "2")
+ poker(suit: "Spade", number: "K")
+ poker(suit: "Heart", number: "6")
+ poker(suit: "Diamond", number: "4")
+ poker(suit: "Spade", number: "8")
+ poker(suit: "Club", number: "5")
+ poker(suit: "Club", number: "3")
+ poker(suit: "Spade", number: "10")
+ 4:
+ poker(suit: "Heart", number: "4")
+ poker(suit: "Club", number: "8")
+ poker(suit: "Club", number: "J")
+ poker(suit: "Spade", number: "4")
+ poker(suit: "Spade", number: "3")
+ poker(suit: "Club", number: "K")
+ poker(suit: "Heart", number: "9")
+ poker(suit: "Diamond", number: "9")
+ poker(suit: "Club", number: "9")
+ poker(suit: "Diamond", number: "J")
+ poker(suit: "Joker", number: "B")
+ poker(suit: "Heart", number: "3")
+ */
 
 //固定四人，分数组保存
 /*
