@@ -38,8 +38,8 @@ Poker.append(poker(suit: "Joker",number: "R"))
 
 
 //人数，发牌
-var Person = 6 //默认4人，可修改
-var PN = 8 //默认13张，可修改
+var Person = 4 //默认4人，可修改
+var PN = 13 //默认13张，可修改
 if Person * PN > Poker.count{
     print("Error")
     exit(0)
